@@ -1,11 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Roboto } from "next/font/google";
-import "./globals.css";
-
-export const metadata: Metadata = {
-  title: "Luiz Guilherme Brandão Araújo",
-  description: "Luiz Guilherme, Software Engineer",
-};
+import { Roboto } from "next/font/google";
 
 const roboto = Roboto({
   weight: "700",
@@ -13,6 +7,10 @@ const roboto = Roboto({
   subsets: ["latin"],
 });
 
+export const metadata: Metadata = {
+  title: "Luiz Guilherme Brandão Araújo - Contact",
+  description: "Luiz Guilherme, Software Engineer",
+};
 
 export default function RootLayout({
   children,
