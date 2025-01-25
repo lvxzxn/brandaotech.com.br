@@ -8,8 +8,8 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Luiz Guilherme Brandão Araújo - Projects",
-  description: "Luiz Guilherme, Software Engineer",
+  title: "Brandão Tech - Projects",
+  description: "Building Your Future, One Website at a Time!"
 };
 
 export default function RootLayout({

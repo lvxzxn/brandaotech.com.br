@@ -14,8 +14,8 @@ export default function Hero() {
     <div
       className={`flex flex-col min-h-screen justify-center text-center ${roboto.className}`}
     >
-      <h3 className="text-white text-3xl">Luiz Guilherme Brandão Araújo</h3>
-      <span className="text-2xl text-white mt-1">Software Engineer, 18y</span>
+      <h3 className={`text-white text-3xl uppercase ${roboto.className} tracking-wide`}>BrandãoTech</h3>
+      <span className="text-2xl text-[#606060] mt-1 lowercase">Building Your Future, One Website at a Time!</span>
       <div className="flex flex-row justify-center mt-4 gap-4">
         <Button className="text-white bg-[#303030] hover:bg-[#404040]">
           <span>

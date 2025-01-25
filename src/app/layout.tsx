@@ -3,8 +3,8 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Luiz Guilherme Brandão Araújo",
-  description: "Luiz Guilherme, Software Engineer",
+  title: "BrandãoTech",
+  description: "Building Your Future, One Website at a Time",
 };
 
 const roboto = Roboto({
