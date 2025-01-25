@@ -37,14 +37,14 @@ export const Project = ({
   tips,
 }: ProjectProps) => {
   return (
-    <Card className="bg-dark text-white border-[#303030]">
+    <Card className="bg-dark text-white border-[#303030] p-4">
       <CardHeader>
         <Image
           alt={`${title}-image`}
-          className="flex h-auto w-auto rounded-lg md:max-w-lg mb-2 transition ease-in-out duration-300 hover:-translate-y-1 hover:scale-105 cursor-pointer"
+          className="w-auto h-auto rounded-lg mb-2 transition ease-in-out duration-300 hover:-translate-y-1 hover:scale-105 cursor-pointer"
           src={imageSrc}
-          width={500}
-          height={500}
+          width={400}
+          height={400}
         />
         <CardTitle className={`text-2xl font-semibold ${roboto.className}`}>
           {title}

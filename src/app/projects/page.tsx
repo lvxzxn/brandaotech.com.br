@@ -34,7 +34,7 @@ const projects: ProjectProps[] = [
 
 export default function Projects() {
   return (
-    <div className="flex flex-col md:flex-row justify-center md:gap-8 gap-6 mt-6 p-3">
+    <div className="flex flex-col md:flex-row justify-center md:gap-8 gap-6 mt-6 p-7">
       {projects.map((project, index) => {
         return (
           <Project
