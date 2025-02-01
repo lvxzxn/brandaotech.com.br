@@ -1,6 +1,6 @@
 import { Project } from "@/components/project";
 import { BunOriginal, Html5Original, JavascriptOriginal, MongodbOriginal, NextjsOriginal, TailwindcssOriginal, TypescriptOriginal } from "devicons-react";
-import { ProjectProps } from "../../../@types/project-props";
+import type { ProjectProps } from "../../../@types/project-props";
 
 const projects: ProjectProps[] = [
   {

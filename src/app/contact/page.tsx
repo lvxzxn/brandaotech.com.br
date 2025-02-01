@@ -19,22 +19,22 @@ export default function Contact() {
           <div className="flex flex-col md:flex-row justify-center items-center gap-8">
             <Link href={"mailto:luizguilhermebg28@gmail.com"}>
               <Button className="bg-[#353535] h-16 w-16 hover:bg-[#404040]">
-                <Mail></Mail>
+                <Mail />
               </Button>
             </Link>
             <Link href={"https://api.whatsapp.com/send?phone=5582998089270"}>
               <Button className="bg-green-500 h-16 w-16 hover:bg-[#404040]">
-                <PhoneIcon></PhoneIcon>
+                <PhoneIcon />
               </Button>
             </Link>
             <Link href={"https://linkedin.com/in/luizgguilherme"}>
               <Button className="bg-blue-600 h-16 w-16 hover:bg-[#404040]">
-                <LinkedinOriginal></LinkedinOriginal>
+                <LinkedinOriginal />
               </Button>
             </Link>
             <Link href={"https://github.com/lvxzxn"}>
               <Button className="bg-[#353535] h-16 w-16 hover:bg-[#404040]">
-                <LucideGithub></LucideGithub>
+                <LucideGithub />
               </Button>
             </Link>
             </div>
